@@ -1,0 +1,82 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '3.1.20',
+        'version' => '3.1.20.0',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '5948794478dd1628a023e2768fa77464e78cf0f6',
+        'name' => 'otgs/otgs-installer',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'composer/installers' => array(
+            'pretty_version' => 'v1.12.0',
+            'version' => '1.12.0.0',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/./installers',
+            'aliases' => array(),
+            'reference' => 'd20a64ed3c94748397ff5973488761b22f6d3f19',
+            'dev_requirement' => false,
+        ),
+        'jakeasmith/http_build_url' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jakeasmith/http_build_url',
+            'aliases' => array(),
+            'reference' => '93c273e77cb1edead0cf8bcf8cd2003428e74e37',
+            'dev_requirement' => false,
+        ),
+        'otgs/icons' => array(
+            'pretty_version' => '1.0.7',
+            'version' => '1.0.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../otgs/icons',
+            'aliases' => array(),
+            'reference' => 'cf892f95b57f1148cbe939543a8d4f9df0f4a3cb',
+            'dev_requirement' => false,
+        ),
+        'otgs/installer' => array(
+            'pretty_version' => '3.1.20',
+            'version' => '3.1.20.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../otgs/installer',
+            'aliases' => array(),
+            'reference' => 'bf2ee28a15ccf40964ad99fe9aa61c7901d57b66',
+            'dev_requirement' => false,
+        ),
+        'otgs/otgs-installer' => array(
+            'pretty_version' => '3.1.20',
+            'version' => '3.1.20.0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '5948794478dd1628a023e2768fa77464e78cf0f6',
+            'dev_requirement' => false,
+        ),
+        'roundcube/plugin-installer' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'shama/baton' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'wpml/collect' => array(
+            'pretty_version' => 'dev-wpml-collect-rename',
+            'version' => 'dev-wpml-collect-rename',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpml/collect',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'c822762bb9dcc581b26e16cc19226d7a6087c23c',
+            'dev_requirement' => false,
+        ),
+    ),
+);
