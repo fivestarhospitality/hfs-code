@@ -1,10 +1,10 @@
 ---
+# Oct 9, 2026: deploy ONLY mu-plugins. Plugins and the theme are now updated
+# directly on production (wp-admin), so copying the repo's Sept 9 snapshot
+# would downgrade them (e.g. Elementor 4.2.4 -> 4.2.0). The plugins/ and
+# themes/ folders stay in this repo as a reference snapshot only.
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rhn/hotelsforsale.rhn.ro
-    - /bin/mkdir -p $DEPLOYPATH/wp-content/plugins
-    - /bin/mkdir -p $DEPLOYPATH/wp-content/themes
     - /bin/mkdir -p $DEPLOYPATH/wp-content/mu-plugins
-    - /bin/cp -R wp-content/plugins/. $DEPLOYPATH/wp-content/plugins/
-    - /bin/cp -R wp-content/themes/. $DEPLOYPATH/wp-content/themes/
     - /bin/cp -R wp-content/mu-plugins/. $DEPLOYPATH/wp-content/mu-plugins/
